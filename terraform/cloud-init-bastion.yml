@@ -13,7 +13,7 @@ write_files:
   - path: "/home/user/.ssh/id_ed25519"
     permissions: "600"
     content: |
-      
+      здесь приватный ключ
     defer: true
 
 #create script for ansible install on bastion host
